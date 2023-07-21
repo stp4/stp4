@@ -8,9 +8,33 @@ This Github page is a pure playground for me and the libraries presented are pur
 If someone (hello Viki :wink:) does not want to be prevented from installing the libraries, then please do so in this order. 
 
 ````r
-install.packages("devtools")
-install.packages("tidyverse")
-# install.packages("installr")
+
+-    Iinstall the latest version from
+[GitHub](https://github.com/stp4) as follow:
+
+if(!require(devtools)) install.packages("devtools")
+if(!require(tidyverse)) install.packages("tidyverse")
+if(!require(fs)) install.packages("fs")
+if(!require(gridExtra)) install.packages("gridExtra")
+if(!require(checkmate)) install.packages("checkmate")
+if(!require(viridis)) install.packages("viridis")
+ 
+if(!require(htmlTable)) install.packages("htmlTable")
+if(!require(Hmisc)) install.packages("Hmisc")
+if(!require(car)) install.packages("car")
+if(!require(haven)) install.packages("haven")
+
+
+# statistical tables
+devtools::install_github("stp4/stp25settings")
+devtools::install_github("stp4/stp25tools")
+devtools::install_github("stp4/stp25stat2")
+
+devtools::install_github("stp4/stp25output2")
+
+# Optional
+devtools::install_github("stp4/stp25plot")
+devtools::install_github("stp4/stp25data")
 
 
 install.packages(
@@ -29,29 +53,8 @@ c(
 ```
 
 
--    Iinstall the latest version from
-[GitHub](https://github.com/stp4) as follow:
-  
-``` r
-# Install
-if(!require(devtools)) install.packages("devtools")
 
-# statistical tables
-devtools::install_github("stp4/stp25settings")
-devtools::install_github("stp4/stp25tools")
-devtools::install_github("stp4/stp25stat2")
-
-# html and Rmd Output
-devtools::install_github("stp4/stp25output2")
-
-# Optional
-devtools::install_github("stp4/stp25plot")
-devtools::install_github("stp4/stp25data")
-
-# stp25Project, stp25kano, stp25meta, stp25metcomp, stp25sampelsize
-
-
-```
+ 
 The libraries are optimised for a Windos system and I have only tested them there. On Linux or Mac, the paths in the source code must be adapted.
 
 <!--
