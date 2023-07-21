@@ -7,6 +7,27 @@ This Github page is a pure playground for me and the libraries presented are pur
 
 If someone (hello Viki :wink:) does not want to be prevented from installing the libraries, then please do so in this order. 
 
+````r
+install.packages("devtools")
+install.packages("tidyverse")
+# install.packages("installr")
+
+
+install.packages(
+c(
+'Hmisc', 'car', 'knitr', 'Formula', 'stringr', 'tinytex',
+'R2HTML', 'kableExtra', 'flextable', 'broom.mixed',
+'cowplot', 'effects', 'lazyeval', 'vcd', 'e1071',
+'hwriter','pander','WebPower', 'pwr', 'psych',
+'ggpubr', 'parameters','bookdown', 'effectsize',
+'dtrackr' , 'consort', 'ggplotify', 'patchwork', 'GGally', 'PlackettLuce',
+'epiR', 'multcomp','betareg', 'equatiomatic', 'lmerTest', 'report', 'coin',
+'survival','survminer', 'qcc', 'heplots', 'lattice', 'latticeExtra','HH',
+'rockchalk','see','equatiomatic','komaletter')
+)
+
+```
+
 
 -    Iinstall the latest version from
 [GitHub](https://github.com/stp4) as follow:
