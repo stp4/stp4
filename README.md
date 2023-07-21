@@ -11,15 +11,12 @@ If someone (hello Viki :wink:) does not want to be prevented from installing the
 
 if(!require(devtools)) install.packages("devtools")
 if(!require(tidyverse)) install.packages("tidyverse")
-#if(!require(fs)) install.packages("fs")
-#if(!require(gridExtra)) install.packages("gridExtra")
-#if(!require(checkmate)) install.packages("checkmate")
-#if(!require(viridis)) install.packages("viridis")
+ 
  
 if(!require(htmlTable)) install.packages("htmlTable")
 if(!require(Hmisc)) install.packages("Hmisc")
 if(!require(car)) install.packages("car")
- if(!require(psych)) install.packages("psych")
+if(!require(psych)) install.packages("psych")
 
 
 # statistical tables
