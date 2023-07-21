@@ -1,5 +1,12 @@
 ### Hi there 👋
 
+
+I am a research assistant at the Universitätsklinik Innsbruck and have been a freelance statistician since 2006.
+
+This Github page is a pure playground for me and the libraries presented are purely experimental.
+
+
+
 <!--
 **stp4/stp4** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
