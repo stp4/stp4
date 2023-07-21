@@ -9,20 +9,17 @@ If someone (hello Viki :wink:) does not want to be prevented from installing the
 
 ````r
 
--    Iinstall the latest version from
-[GitHub](https://github.com/stp4) as follow:
-
 if(!require(devtools)) install.packages("devtools")
 if(!require(tidyverse)) install.packages("tidyverse")
-if(!require(fs)) install.packages("fs")
-if(!require(gridExtra)) install.packages("gridExtra")
-if(!require(checkmate)) install.packages("checkmate")
-if(!require(viridis)) install.packages("viridis")
+#if(!require(fs)) install.packages("fs")
+#if(!require(gridExtra)) install.packages("gridExtra")
+#if(!require(checkmate)) install.packages("checkmate")
+#if(!require(viridis)) install.packages("viridis")
  
 if(!require(htmlTable)) install.packages("htmlTable")
 if(!require(Hmisc)) install.packages("Hmisc")
 if(!require(car)) install.packages("car")
-if(!require(haven)) install.packages("haven")
+ if(!require(psych)) install.packages("psych")
 
 
 # statistical tables
@@ -37,17 +34,29 @@ devtools::install_github("stp4/stp25plot")
 devtools::install_github("stp4/stp25data")
 
 
+
+#  if(!require(hwriter)) install.packages("hwriter")
+# devtools::install_github("stp4/stp25Project")
+#  if(!require(vcd)) install.packages("vcd")
+# devtools::install_github("stp4/stp25metcomp")
+# devtools::install_github("stp4/stp25kano")
+# devtools::install_github("stp4/stp25samplesize")
+
+
+# Optional
 install.packages(
-c(
-'Hmisc', 'car', 'knitr', 'Formula', 'stringr', 'tinytex',
-'R2HTML', 'kableExtra', 'flextable', 'broom.mixed',
-'cowplot', 'effects', 'lazyeval', 'vcd', 'e1071',
-'hwriter','pander','WebPower', 'pwr', 'psych',
-'ggpubr', 'parameters','bookdown', 'effectsize',
-'dtrackr' , 'consort', 'ggplotify', 'patchwork', 'GGally', 'PlackettLuce',
-'epiR', 'multcomp','betareg', 'equatiomatic', 'lmerTest', 'report', 'coin',
-'survival','survminer', 'qcc', 'heplots', 'lattice', 'latticeExtra','HH',
-'rockchalk','see','equatiomatic','komaletter')
+  c(
+ 'lavaan',  'performance', 
+    'kableExtra', 'flextable', 'broom.mixed',
+    'cowplot', 'effects', 'vcd', 'e1071',
+   # 'hwriter',
+   # 'pander',
+   'WebPower', 'pwr',  
+    'parameters','bookdown', 'effectsize',
+    'PlackettLuce',
+    'epiR', 'multcomp',  'lmerTest', 'report', 'coin',
+    'survival','survminer', 'qcc',   'lattice', 'latticeExtra','HH',
+   'see', 'equatiomatic','komaletter')
 )
 
 ```
