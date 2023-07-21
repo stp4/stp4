@@ -14,12 +14,21 @@ If someone (hello Viki :wink:) does not want to be prevented from installing the
 ``` r
 # Install
 if(!require(devtools)) install.packages("devtools")
+
+# statistical tables
 devtools::install_github("stp4/stp25settings")
-devtools::install_github("stp4/stp25output2")
 devtools::install_github("stp4/stp25tools")
 devtools::install_github("stp4/stp25stat2")
+
+# html and Rmd Output
+devtools::install_github("stp4/stp25output2")
+
+# Optional
 devtools::install_github("stp4/stp25plot")
 devtools::install_github("stp4/stp25data")
+
+# stp25Project, stp25kano, stp25meta, stp25metcomp, stp25sampelsize
+
 
 ```
 The libraries are optimised for a Windos system and I have only tested them there. On Linux or Mac, the paths in the source code must be adapted.
