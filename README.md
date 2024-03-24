@@ -7,7 +7,7 @@ This Github page is a pure playground for me and the libraries presented are pur
 
 If someone (hello Viki :wink:) does not want to be prevented from installing the libraries, then please do so in this order. 
 
-````r
+```
 
 if(!require(devtools)) install.packages("devtools")
 if(!require(tidyverse)) install.packages("tidyverse")
@@ -55,11 +55,7 @@ install.packages(
     'survival','survminer', 'qcc',   'lattice', 'latticeExtra','HH',
    'see', 'equatiomatic','komaletter')
 )
-
 ```
 
-
-
- 
 The libraries are optimised for a Windos system and I have only tested them there. On Linux or Mac, the paths in the source code must be adapted.
 
