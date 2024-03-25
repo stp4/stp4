@@ -5,7 +5,7 @@ I am a research assistant at the Universitätsklinik Innsbruck and have been a f
 
 This Github page is a pure playground for me and the libraries presented are purely experimental.
 
-If someone (hello Viki :wink:) does not want to be prevented from installing the libraries, then please do so in this order. 
+If someone (hello :wink:) does not want to be prevented from installing the libraries, then please do so in this order. 
 
 ```
 
