@@ -8,23 +8,20 @@ This Github page is a pure playground for me and the libraries presented are pur
 If someone (hello Thomas :wink:) does not want to be prevented from installing the libraries, then please do so in this order. 
 
 
-Erster Schritt folgende Programme installieren und alle Default Einstellungen belassen.
+First step: install the following programs and leave all default settings.
 
 
 
 1. GitHub
-als erstes einen Account erstellen unter https://github.com/
-danach Git instalieren.
+First create an account at https://github.com/
+then install Git..
  https://git-scm.com/downloads 
-2: R for Windows
- https://cran.rstudio.com/
+2. R for Windows  https://cran.rstudio.com/
  R-base:  https://cran.rstudio.com/bin/windows/base/
 3. RTools 4.3 https://cran.rstudio.com/bin/windows/Rtools/
 4. RStudio Desktop
 https://posit.co/download/rstudio-desktop/
-5. den Code unten ausführen
-6. PSPP instalieren https://www.heise.de/download/product/pspp/download alternativer Link https://www.gnu.org/software/pspp/get.html
-
+5. run the code below
 
 ```
 
@@ -83,6 +80,11 @@ devtools::install_github("stp4/stp25samplesize")
   install.packages("tinytex") 
   tinytex::install_tinytex()
   # tinytex::reinstall_tinytex()
+
+---
+6. PSPP instalieren https://www.heise.de/download/product/pspp/download alternativer Link https://www.gnu.org/software/pspp/get.html
+
+
 
 The libraries are optimised for a Windos system and I have only tested them there. On Linux or Mac, the paths in the source code must be adapted.
 
