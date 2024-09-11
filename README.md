@@ -21,7 +21,8 @@ then install Git..
 3. RTools 4.3 https://cran.rstudio.com/bin/windows/Rtools/
 4. RStudio Desktop
 https://posit.co/download/rstudio-desktop/
-5. run the code below
+5. Optionally install PSPP https://www.heise.de/download/product/pspp/download alternativer Link https://www.gnu.org/software/pspp/get.html
+6. run the code below
 
 ```
 
@@ -81,10 +82,7 @@ devtools::install_github("stp4/stp25samplesize")
   tinytex::install_tinytex()
   # tinytex::reinstall_tinytex()
 
----
-6. PSPP instalieren https://www.heise.de/download/product/pspp/download alternativer Link https://www.gnu.org/software/pspp/get.html
-
-
-
-The libraries are optimised for a Windos system and I have only tested them there. On Linux or Mac, the paths in the source code must be adapted.
+ 
+# The libraries are optimised for a Windos system and I have only tested them there.
+# On Linux or Mac, the paths in the source code must be adapted.
 
