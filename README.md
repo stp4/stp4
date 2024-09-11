@@ -60,7 +60,8 @@ install.packages(
 devtools::install_github("stp4/stp25settings")
 devtools::install_github("stp4/stp25tools")
 devtools::install_github("stp4/stp25stat2")
-devtools::install_github("stp4/stp25output2")
+devtools::install_github("stp4/stp25output2") 
+devtools::install_github("stp4/stp25likert")
 
 # Optional
 devtools::install_github("stp4/stp25plot")
