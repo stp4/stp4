@@ -18,7 +18,7 @@ then install Git..
  https://git-scm.com/downloads 
 2. R for Windows  https://cran.rstudio.com/
  R-base:  https://cran.rstudio.com/bin/windows/base/
-3. RTools 4.3 https://cran.rstudio.com/bin/windows/Rtools/
+3. RTools  https://cran.rstudio.com/bin/windows/Rtools/
 4. RStudio Desktop
 https://posit.co/download/rstudio-desktop/
 5. Optionally install PSPP https://www.heise.de/download/product/pspp/download alternativer Link https://www.gnu.org/software/pspp/get.html
