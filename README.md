@@ -15,24 +15,15 @@ Erster Schritt folgende Programme installieren und alle Default Einstellungen be
 1. GitHub
 als erstes einen Account erstellen unter https://github.com/
 danach Git instalieren.
- https://git-scm.com/downloads
- 
+ https://git-scm.com/downloads 
 2: R for Windows
  https://cran.rstudio.com/
  R-base:  https://cran.rstudio.com/bin/windows/base/
- 
-3.
-RTools 4.3 https://cran.rstudio.com/bin/windows/Rtools/
-
+3. RTools 4.3 https://cran.rstudio.com/bin/windows/Rtools/
 4. RStudio Desktop
 https://posit.co/download/rstudio-desktop/
-
-
 5. den Code unten ausführen
-
-6. PSPP instalieren
-https://www.heise.de/download/product/pspp/download
-alternativer Link https://www.gnu.org/software/pspp/get.html
+6. PSPP instalieren https://www.heise.de/download/product/pspp/download alternativer Link https://www.gnu.org/software/pspp/get.html
 
 
 ```
