@@ -51,7 +51,7 @@ install.packages(
     'see', 'equatiomatic','komaletter',
     'meta',
     'caret', 'pscl', 'modelsummary','DescTools','labelled',
-    'consort',
+    'consort', 'MuMIn',
     'rockchalk'
     )
 )
