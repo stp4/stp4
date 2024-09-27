@@ -66,7 +66,9 @@ devtools::install_github("stp4/stp25likert")
 # Optional
 devtools::install_github("stp4/stp25plot")
 devtools::install_github("stp4/stp25data")
-devtools::install_github("stp4/stp25Project")
+
+# devtools::install_github("stp4/stp25Project")
+# das geht nur direkt weil sensible Daten enthalten sind.
 devtools::install_github("stp4/stp25metcomp")
 devtools::install_github("stp4/stp25kano")
 devtools::install_github("stp4/stp25samplesize")
